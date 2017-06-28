@@ -1,0 +1,644 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D63AD71D1ED45D8900A46276 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D63AD71C1ED45D8900A46276 /* main.m */; };
+		D63AD7201ED45D8900A46276 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D63AD71F1ED45D8900A46276 /* AppDelegate.m */; };
+		D63AD7231ED45D8900A46276 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D63AD7221ED45D8900A46276 /* ViewController.m */; };
+		D63AD7261ED45D8900A46276 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D63AD7241ED45D8900A46276 /* Main.storyboard */; };
+		D63AD7281ED45D8900A46276 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D63AD7271ED45D8900A46276 /* Assets.xcassets */; };
+		D63AD72B1ED45D8900A46276 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D63AD7291ED45D8900A46276 /* LaunchScreen.storyboard */; };
+		D63AD7361ED45D8900A46276 /* _1_______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = D63AD7351ED45D8900A46276 /* _1_______Tests.m */; };
+		D63AD7411ED45D8900A46276 /* _1_______UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D63AD7401ED45D8900A46276 /* _1_______UITests.m */; };
+		D63AD81B1ED5780E00A46276 /* angle.png in Resources */ = {isa = PBXBuildFile; fileRef = D63AD81A1ED5780E00A46276 /* angle.png */; };
+		D63AD81D1ED5BBBB00A46276 /* testimg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D63AD81C1ED5BBBB00A46276 /* testimg.jpg */; };
+		D6F0ABF31EED751A007BF03F /* FaceppAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = D6F0ABDA1EED751A007BF03F /* FaceppAPI.m */; };
+		D6F0ABF41EED751A007BF03F /* FaceppClient.m in Sources */ = {isa = PBXBuildFile; fileRef = D6F0ABDD1EED751A007BF03F /* FaceppClient.m */; };
+		D6F0ABF51EED751A007BF03F /* FaceppDetection.m in Sources */ = {isa = PBXBuildFile; fileRef = D6F0ABDF1EED751A007BF03F /* FaceppDetection.m */; };
+		D6F0ABF61EED751A007BF03F /* FaceppFaceset.m in Sources */ = {isa = PBXBuildFile; fileRef = D6F0ABE11EED751A007BF03F /* FaceppFaceset.m */; };
+		D6F0ABF71EED751A007BF03F /* FaceppGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = D6F0ABE31EED751A007BF03F /* FaceppGroup.m */; };
+		D6F0ABF81EED751A007BF03F /* FaceppGrouping.m in Sources */ = {isa = PBXBuildFile; fileRef = D6F0ABE51EED751A007BF03F /* FaceppGrouping.m */; };
+		D6F0ABF91EED751A007BF03F /* FaceppInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = D6F0ABE71EED751A007BF03F /* FaceppInfo.m */; };
+		D6F0ABFA1EED751A007BF03F /* FaceppPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = D6F0ABE91EED751A007BF03F /* FaceppPerson.m */; };
+		D6F0ABFB1EED751A007BF03F /* FaceppRecognition.m in Sources */ = {isa = PBXBuildFile; fileRef = D6F0ABEB1EED751A007BF03F /* FaceppRecognition.m */; };
+		D6F0ABFC1EED751A007BF03F /* FaceppTrainer.m in Sources */ = {isa = PBXBuildFile; fileRef = D6F0ABED1EED751A007BF03F /* FaceppTrainer.m */; };
+		D6F0ABFD1EED751A007BF03F /* FaceppError.m in Sources */ = {isa = PBXBuildFile; fileRef = D6F0ABF01EED751A007BF03F /* FaceppError.m */; };
+		D6F0ABFE1EED751A007BF03F /* FaceppResult.m in Sources */ = {isa = PBXBuildFile; fileRef = D6F0ABF21EED751A007BF03F /* FaceppResult.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D63AD7321ED45D8900A46276 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D63AD7101ED45D8800A46276 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D63AD7171ED45D8800A46276;
+			remoteInfo = "01 初试人连识别";
+		};
+		D63AD73D1ED45D8900A46276 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D63AD7101ED45D8800A46276 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D63AD7171ED45D8800A46276;
+			remoteInfo = "01 初试人连识别";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D63AD7181ED45D8900A46276 /* 01 初试人连识别.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "01 初试人连识别.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D63AD71C1ED45D8900A46276 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D63AD71E1ED45D8900A46276 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D63AD71F1ED45D8900A46276 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D63AD7211ED45D8900A46276 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D63AD7221ED45D8900A46276 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D63AD7251ED45D8900A46276 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D63AD7271ED45D8900A46276 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D63AD72A1ED45D8900A46276 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D63AD72C1ED45D8900A46276 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D63AD7311ED45D8900A46276 /* 01 初试人连识别Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "01 初试人连识别Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D63AD7351ED45D8900A46276 /* _1_______Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_1_______Tests.m"; sourceTree = "<group>"; };
+		D63AD7371ED45D8900A46276 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D63AD73C1ED45D8900A46276 /* 01 初试人连识别UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "01 初试人连识别UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D63AD7401ED45D8900A46276 /* _1_______UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_1_______UITests.m"; sourceTree = "<group>"; };
+		D63AD7421ED45D8900A46276 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D63AD81A1ED5780E00A46276 /* angle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = angle.png; sourceTree = "<group>"; };
+		D63AD81C1ED5BBBB00A46276 /* testimg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = testimg.jpg; sourceTree = "<group>"; };
+		D6F0ABD91EED751A007BF03F /* FaceppAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FaceppAPI.h; sourceTree = "<group>"; };
+		D6F0ABDA1EED751A007BF03F /* FaceppAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FaceppAPI.m; sourceTree = "<group>"; };
+		D6F0ABDC1EED751A007BF03F /* FaceppClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FaceppClient.h; sourceTree = "<group>"; };
+		D6F0ABDD1EED751A007BF03F /* FaceppClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FaceppClient.m; sourceTree = "<group>"; };
+		D6F0ABDE1EED751A007BF03F /* FaceppDetection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FaceppDetection.h; sourceTree = "<group>"; };
+		D6F0ABDF1EED751A007BF03F /* FaceppDetection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FaceppDetection.m; sourceTree = "<group>"; };
+		D6F0ABE01EED751A007BF03F /* FaceppFaceset.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FaceppFaceset.h; sourceTree = "<group>"; };
+		D6F0ABE11EED751A007BF03F /* FaceppFaceset.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FaceppFaceset.m; sourceTree = "<group>"; };
+		D6F0ABE21EED751A007BF03F /* FaceppGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FaceppGroup.h; sourceTree = "<group>"; };
+		D6F0ABE31EED751A007BF03F /* FaceppGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FaceppGroup.m; sourceTree = "<group>"; };
+		D6F0ABE41EED751A007BF03F /* FaceppGrouping.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FaceppGrouping.h; sourceTree = "<group>"; };
+		D6F0ABE51EED751A007BF03F /* FaceppGrouping.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FaceppGrouping.m; sourceTree = "<group>"; };
+		D6F0ABE61EED751A007BF03F /* FaceppInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FaceppInfo.h; sourceTree = "<group>"; };
+		D6F0ABE71EED751A007BF03F /* FaceppInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FaceppInfo.m; sourceTree = "<group>"; };
+		D6F0ABE81EED751A007BF03F /* FaceppPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FaceppPerson.h; sourceTree = "<group>"; };
+		D6F0ABE91EED751A007BF03F /* FaceppPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FaceppPerson.m; sourceTree = "<group>"; };
+		D6F0ABEA1EED751A007BF03F /* FaceppRecognition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FaceppRecognition.h; sourceTree = "<group>"; };
+		D6F0ABEB1EED751A007BF03F /* FaceppRecognition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FaceppRecognition.m; sourceTree = "<group>"; };
+		D6F0ABEC1EED751A007BF03F /* FaceppTrainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FaceppTrainer.h; sourceTree = "<group>"; };
+		D6F0ABED1EED751A007BF03F /* FaceppTrainer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FaceppTrainer.m; sourceTree = "<group>"; };
+		D6F0ABEF1EED751A007BF03F /* FaceppError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FaceppError.h; sourceTree = "<group>"; };
+		D6F0ABF01EED751A007BF03F /* FaceppError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FaceppError.m; sourceTree = "<group>"; };
+		D6F0ABF11EED751A007BF03F /* FaceppResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FaceppResult.h; sourceTree = "<group>"; };
+		D6F0ABF21EED751A007BF03F /* FaceppResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FaceppResult.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D63AD7151ED45D8800A46276 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D63AD72E1ED45D8900A46276 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D63AD7391ED45D8900A46276 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D63AD70F1ED45D8800A46276 = {
+			isa = PBXGroup;
+			children = (
+				D63AD71A1ED45D8900A46276 /* 01 初试人连识别 */,
+				D63AD7341ED45D8900A46276 /* 01 初试人连识别Tests */,
+				D63AD73F1ED45D8900A46276 /* 01 初试人连识别UITests */,
+				D63AD7191ED45D8900A46276 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D63AD7191ED45D8900A46276 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D63AD7181ED45D8900A46276 /* 01 初试人连识别.app */,
+				D63AD7311ED45D8900A46276 /* 01 初试人连识别Tests.xctest */,
+				D63AD73C1ED45D8900A46276 /* 01 初试人连识别UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D63AD71A1ED45D8900A46276 /* 01 初试人连识别 */ = {
+			isa = PBXGroup;
+			children = (
+				D63AD81C1ED5BBBB00A46276 /* testimg.jpg */,
+				D63AD71E1ED45D8900A46276 /* AppDelegate.h */,
+				D63AD71F1ED45D8900A46276 /* AppDelegate.m */,
+				D6F0ABD81EED751A007BF03F /* FaceppSDK_ARC */,
+				D63AD7211ED45D8900A46276 /* ViewController.h */,
+				D63AD7221ED45D8900A46276 /* ViewController.m */,
+				D63AD81A1ED5780E00A46276 /* angle.png */,
+				D63AD7241ED45D8900A46276 /* Main.storyboard */,
+				D63AD7271ED45D8900A46276 /* Assets.xcassets */,
+				D63AD7291ED45D8900A46276 /* LaunchScreen.storyboard */,
+				D63AD72C1ED45D8900A46276 /* Info.plist */,
+				D63AD71B1ED45D8900A46276 /* Supporting Files */,
+			);
+			path = "01 初试人连识别";
+			sourceTree = "<group>";
+		};
+		D63AD71B1ED45D8900A46276 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D63AD71C1ED45D8900A46276 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D63AD7341ED45D8900A46276 /* 01 初试人连识别Tests */ = {
+			isa = PBXGroup;
+			children = (
+				D63AD7351ED45D8900A46276 /* _1_______Tests.m */,
+				D63AD7371ED45D8900A46276 /* Info.plist */,
+			);
+			path = "01 初试人连识别Tests";
+			sourceTree = "<group>";
+		};
+		D63AD73F1ED45D8900A46276 /* 01 初试人连识别UITests */ = {
+			isa = PBXGroup;
+			children = (
+				D63AD7401ED45D8900A46276 /* _1_______UITests.m */,
+				D63AD7421ED45D8900A46276 /* Info.plist */,
+			);
+			path = "01 初试人连识别UITests";
+			sourceTree = "<group>";
+		};
+		D6F0ABD81EED751A007BF03F /* FaceppSDK_ARC */ = {
+			isa = PBXGroup;
+			children = (
+				D6F0ABD91EED751A007BF03F /* FaceppAPI.h */,
+				D6F0ABDA1EED751A007BF03F /* FaceppAPI.m */,
+				D6F0ABDB1EED751A007BF03F /* FaceppAPISource */,
+				D6F0ABEE1EED751A007BF03F /* FaceppResult */,
+			);
+			path = FaceppSDK_ARC;
+			sourceTree = "<group>";
+		};
+		D6F0ABDB1EED751A007BF03F /* FaceppAPISource */ = {
+			isa = PBXGroup;
+			children = (
+				D6F0ABDC1EED751A007BF03F /* FaceppClient.h */,
+				D6F0ABDD1EED751A007BF03F /* FaceppClient.m */,
+				D6F0ABDE1EED751A007BF03F /* FaceppDetection.h */,
+				D6F0ABDF1EED751A007BF03F /* FaceppDetection.m */,
+				D6F0ABE01EED751A007BF03F /* FaceppFaceset.h */,
+				D6F0ABE11EED751A007BF03F /* FaceppFaceset.m */,
+				D6F0ABE21EED751A007BF03F /* FaceppGroup.h */,
+				D6F0ABE31EED751A007BF03F /* FaceppGroup.m */,
+				D6F0ABE41EED751A007BF03F /* FaceppGrouping.h */,
+				D6F0ABE51EED751A007BF03F /* FaceppGrouping.m */,
+				D6F0ABE61EED751A007BF03F /* FaceppInfo.h */,
+				D6F0ABE71EED751A007BF03F /* FaceppInfo.m */,
+				D6F0ABE81EED751A007BF03F /* FaceppPerson.h */,
+				D6F0ABE91EED751A007BF03F /* FaceppPerson.m */,
+				D6F0ABEA1EED751A007BF03F /* FaceppRecognition.h */,
+				D6F0ABEB1EED751A007BF03F /* FaceppRecognition.m */,
+				D6F0ABEC1EED751A007BF03F /* FaceppTrainer.h */,
+				D6F0ABED1EED751A007BF03F /* FaceppTrainer.m */,
+			);
+			path = FaceppAPISource;
+			sourceTree = "<group>";
+		};
+		D6F0ABEE1EED751A007BF03F /* FaceppResult */ = {
+			isa = PBXGroup;
+			children = (
+				D6F0ABEF1EED751A007BF03F /* FaceppError.h */,
+				D6F0ABF01EED751A007BF03F /* FaceppError.m */,
+				D6F0ABF11EED751A007BF03F /* FaceppResult.h */,
+				D6F0ABF21EED751A007BF03F /* FaceppResult.m */,
+			);
+			path = FaceppResult;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D63AD7171ED45D8800A46276 /* 01 初试人连识别 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D63AD7451ED45D8900A46276 /* Build configuration list for PBXNativeTarget "01 初试人连识别" */;
+			buildPhases = (
+				D63AD7141ED45D8800A46276 /* Sources */,
+				D63AD7151ED45D8800A46276 /* Frameworks */,
+				D63AD7161ED45D8800A46276 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "01 初试人连识别";
+			productName = "01 初试人连识别";
+			productReference = D63AD7181ED45D8900A46276 /* 01 初试人连识别.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D63AD7301ED45D8900A46276 /* 01 初试人连识别Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D63AD7481ED45D8900A46276 /* Build configuration list for PBXNativeTarget "01 初试人连识别Tests" */;
+			buildPhases = (
+				D63AD72D1ED45D8900A46276 /* Sources */,
+				D63AD72E1ED45D8900A46276 /* Frameworks */,
+				D63AD72F1ED45D8900A46276 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D63AD7331ED45D8900A46276 /* PBXTargetDependency */,
+			);
+			name = "01 初试人连识别Tests";
+			productName = "01 初试人连识别Tests";
+			productReference = D63AD7311ED45D8900A46276 /* 01 初试人连识别Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D63AD73B1ED45D8900A46276 /* 01 初试人连识别UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D63AD74B1ED45D8900A46276 /* Build configuration list for PBXNativeTarget "01 初试人连识别UITests" */;
+			buildPhases = (
+				D63AD7381ED45D8900A46276 /* Sources */,
+				D63AD7391ED45D8900A46276 /* Frameworks */,
+				D63AD73A1ED45D8900A46276 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D63AD73E1ED45D8900A46276 /* PBXTargetDependency */,
+			);
+			name = "01 初试人连识别UITests";
+			productName = "01 初试人连识别UITests";
+			productReference = D63AD73C1ED45D8900A46276 /* 01 初试人连识别UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D63AD7101ED45D8800A46276 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "谭州教育";
+				TargetAttributes = {
+					D63AD7171ED45D8800A46276 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 6N2KK62WZZ;
+						ProvisioningStyle = Automatic;
+					};
+					D63AD7301ED45D8900A46276 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D63AD7171ED45D8800A46276;
+					};
+					D63AD73B1ED45D8900A46276 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D63AD7171ED45D8800A46276;
+					};
+				};
+			};
+			buildConfigurationList = D63AD7131ED45D8800A46276 /* Build configuration list for PBXProject "01 初试人连识别" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D63AD70F1ED45D8800A46276;
+			productRefGroup = D63AD7191ED45D8900A46276 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D63AD7171ED45D8800A46276 /* 01 初试人连识别 */,
+				D63AD7301ED45D8900A46276 /* 01 初试人连识别Tests */,
+				D63AD73B1ED45D8900A46276 /* 01 初试人连识别UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D63AD7161ED45D8800A46276 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D63AD81D1ED5BBBB00A46276 /* testimg.jpg in Resources */,
+				D63AD72B1ED45D8900A46276 /* LaunchScreen.storyboard in Resources */,
+				D63AD7281ED45D8900A46276 /* Assets.xcassets in Resources */,
+				D63AD7261ED45D8900A46276 /* Main.storyboard in Resources */,
+				D63AD81B1ED5780E00A46276 /* angle.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D63AD72F1ED45D8900A46276 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D63AD73A1ED45D8900A46276 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D63AD7141ED45D8800A46276 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6F0ABF51EED751A007BF03F /* FaceppDetection.m in Sources */,
+				D6F0ABFC1EED751A007BF03F /* FaceppTrainer.m in Sources */,
+				D6F0ABFE1EED751A007BF03F /* FaceppResult.m in Sources */,
+				D6F0ABFA1EED751A007BF03F /* FaceppPerson.m in Sources */,
+				D63AD7231ED45D8900A46276 /* ViewController.m in Sources */,
+				D6F0ABF91EED751A007BF03F /* FaceppInfo.m in Sources */,
+				D6F0ABFD1EED751A007BF03F /* FaceppError.m in Sources */,
+				D6F0ABF61EED751A007BF03F /* FaceppFaceset.m in Sources */,
+				D63AD7201ED45D8900A46276 /* AppDelegate.m in Sources */,
+				D6F0ABF71EED751A007BF03F /* FaceppGroup.m in Sources */,
+				D6F0ABF41EED751A007BF03F /* FaceppClient.m in Sources */,
+				D6F0ABF81EED751A007BF03F /* FaceppGrouping.m in Sources */,
+				D63AD71D1ED45D8900A46276 /* main.m in Sources */,
+				D6F0ABFB1EED751A007BF03F /* FaceppRecognition.m in Sources */,
+				D6F0ABF31EED751A007BF03F /* FaceppAPI.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D63AD72D1ED45D8900A46276 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D63AD7361ED45D8900A46276 /* _1_______Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D63AD7381ED45D8900A46276 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D63AD7411ED45D8900A46276 /* _1_______UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D63AD7331ED45D8900A46276 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D63AD7171ED45D8800A46276 /* 01 初试人连识别 */;
+			targetProxy = D63AD7321ED45D8900A46276 /* PBXContainerItemProxy */;
+		};
+		D63AD73E1ED45D8900A46276 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D63AD7171ED45D8800A46276 /* 01 初试人连识别 */;
+			targetProxy = D63AD73D1ED45D8900A46276 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D63AD7241ED45D8900A46276 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D63AD7251ED45D8900A46276 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D63AD7291ED45D8900A46276 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D63AD72A1ED45D8900A46276 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D63AD7431ED45D8900A46276 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D63AD7441ED45D8900A46276 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D63AD7461ED45D8900A46276 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6N2KK62WZZ;
+				INFOPLIST_FILE = "01 初试人连识别/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "tanzhou.com.-1-------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D63AD7471ED45D8900A46276 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6N2KK62WZZ;
+				INFOPLIST_FILE = "01 初试人连识别/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "tanzhou.com.-1-------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D63AD7491ED45D8900A46276 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "01 初试人连识别Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "tanzhou.com.-1-------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/01 初试人连识别.app/01 初试人连识别";
+			};
+			name = Debug;
+		};
+		D63AD74A1ED45D8900A46276 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "01 初试人连识别Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "tanzhou.com.-1-------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/01 初试人连识别.app/01 初试人连识别";
+			};
+			name = Release;
+		};
+		D63AD74C1ED45D8900A46276 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "01 初试人连识别UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "tanzhou.com.-1-------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "01 初试人连识别";
+			};
+			name = Debug;
+		};
+		D63AD74D1ED45D8900A46276 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "01 初试人连识别UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "tanzhou.com.-1-------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "01 初试人连识别";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D63AD7131ED45D8800A46276 /* Build configuration list for PBXProject "01 初试人连识别" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D63AD7431ED45D8900A46276 /* Debug */,
+				D63AD7441ED45D8900A46276 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D63AD7451ED45D8900A46276 /* Build configuration list for PBXNativeTarget "01 初试人连识别" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D63AD7461ED45D8900A46276 /* Debug */,
+				D63AD7471ED45D8900A46276 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D63AD7481ED45D8900A46276 /* Build configuration list for PBXNativeTarget "01 初试人连识别Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D63AD7491ED45D8900A46276 /* Debug */,
+				D63AD74A1ED45D8900A46276 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D63AD74B1ED45D8900A46276 /* Build configuration list for PBXNativeTarget "01 初试人连识别UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D63AD74C1ED45D8900A46276 /* Debug */,
+				D63AD74D1ED45D8900A46276 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D63AD7101ED45D8800A46276 /* Project object */;
+}
