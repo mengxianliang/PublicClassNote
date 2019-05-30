@@ -297,8 +297,8 @@
 				TargetAttributes = {
 					D63AD7171ED45D8800A46276 = {
 						CreatedOnToolsVersion = 8.3.2;
-						DevelopmentTeam = 6N2KK62WZZ;
-						ProvisioningStyle = Automatic;
+						DevelopmentTeam = C78VF44FUP;
+						ProvisioningStyle = Manual;
 					};
 					D63AD7301ED45D8900A46276 = {
 						CreatedOnToolsVersion = 8.3.2;
@@ -531,12 +531,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 6N2KK62WZZ;
+				CODE_SIGN_IDENTITY = "iPhone Developer: CHEN LI (L89D9YKKEN)";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = C78VF44FUP;
 				INFOPLIST_FILE = "01 初试人连识别/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "tanzhou.com.-1-------";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jwzt.test;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = jwztTeamDevelop;
 			};
 			name = Debug;
 		};
@@ -544,12 +547,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 6N2KK62WZZ;
+				CODE_SIGN_IDENTITY = "iPhone Developer: CHEN LI (L89D9YKKEN)";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = C78VF44FUP;
 				INFOPLIST_FILE = "01 初试人连识别/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "tanzhou.com.-1-------";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jwzt.test;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = jwztTeamDevelop;
 			};
 			name = Release;
 		};
